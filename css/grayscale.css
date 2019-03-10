@@ -56,6 +56,16 @@
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.80);
   }
+  #mainNav .navbar-brand-blog {
+    padding: .5rem 0;
+    color: #0b253d;
+  }
+  #mainNav .nav-link-blog {
+    -webkit-transition: none;
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: #0b253d;
+  }
   #mainNav .nav-link:hover {
     color: rgb(255, 255, 255);
   }
@@ -168,6 +178,10 @@
   background-color: #0b253d !important;
 }
 
+.btn-space {
+  margin-right: 50px;
+}
+
 .about-section {
   padding-top: 15rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
@@ -176,7 +190,7 @@
 .body {padding-top:20px;
 }
 .about-section p {
-  margin-bottom: 30rem;
+  margin-bottom: 20rem;
 }
 
 .projects-section {
