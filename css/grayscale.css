@@ -103,7 +103,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -123,6 +123,19 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  color: #0b253d
+}
+
+h2 {
+  max-width: 20rem;
+  font-size: 2rem;
+  color: #0b253d
+}
+
+h4 {
+  
+  font-size: 1.2rem;
+  color: #3270aa
 }
 
 @media (min-width: 768px) {
@@ -179,13 +192,13 @@
 }
 
 .btn-space {
-  margin-right: 50px;
+  margin-right: 5px;
 }
 
 .about-section {
   padding-top: 15rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(41, 40, 40, 0.9) 75%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(to bottom, #161616 0%, rgba(41, 40, 40, 0.9) 60%, rgb(255, 255, 255) 100%);
 }
 .body {padding-top:20px;
 }
@@ -200,7 +213,9 @@
 .text-margin-top {
   margin-top: 3rem;
 }
-
+.text-margin-bot {
+  margin-top: -3rem;
+}
 .img-margin-top {
   margin-top: -13rem;
 }
@@ -322,3 +337,8 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.text {
+  color: #000000 !important;
+}
+
